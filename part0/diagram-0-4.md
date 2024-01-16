@@ -3,7 +3,7 @@ sequenceDiagram
     participant browser
     participant server
 
-    Note right of browser: User send text to server using an html form
+    Note right of browser: User sends data (string text) to server using an html form
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
